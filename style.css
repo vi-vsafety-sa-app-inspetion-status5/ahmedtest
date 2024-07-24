@@ -1,5 +1,11 @@
-body{
-    font-family: 'jf flat regular' ,Arial, Helvetica, sans-serif;
+@font-face {
+    font-family: 'jf_flatregular';
+    src: url('jf-flat-regular-webfont.woff2') format('woff2'),
+         url('jf-flat-regular-webfont.woff') format('woff');
+         url('jf-flat-regular.tff') format('tff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 .page-loader-wrapper {
