@@ -1,13 +1,14 @@
 @font-face {
-    font-family: 'jf_flatregular';
-    src: url('font/jf-flat-regular-webfont.woff2') format('woff2'),
-         url('font/jf-flat-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
+    font-family: "JF Flat Regular";
+    src: url("https://db.onlinewebfonts.com/t/7d411bb0357d6fd29347455b7d207995.eot");
+    src: url("https://db.onlinewebfonts.com/t/7d411bb0357d6fd29347455b7d207995.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/7d411bb0357d6fd29347455b7d207995.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/7d411bb0357d6fd29347455b7d207995.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/7d411bb0357d6fd29347455b7d207995.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/7d411bb0357d6fd29347455b7d207995.svg#JF Flat Regular")format("svg");
 }
 body {
-    font-family: 'jf_flatregular', sans-serif;
+   font-family: "JF Flat Regular";
 }
 .page-loader-wrapper {
     background: rgba(255, 255, 255, 0.8);
