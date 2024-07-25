@@ -1,0 +1,109 @@
+@font-face {
+    font-family: 'jf_flatregular';
+    src: url('font/jf-flat-regular-webfont.woff2') format('woff2'),
+         url('font/jf-flat-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body {
+    font-family: 'JF Flat', sans-serif;
+}
+.page-loader-wrapper {
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.page-loader-wrapper p {
+    font-size: 16px;
+    margin-top: 20px;
+    color: #1cbfd0;
+}
+
+.vehicle-stickerPage {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.vehicle-stickerPage img.logo {
+    width: 125px;
+    height: 184px;
+    margin-bottom: 54px;
+}
+
+.vehicle-stickerPage img.valid-img {
+    width: 37px;
+    height: 37px;
+    margin-left: 16px;
+}
+
+.vehicle-sticker {
+    background: no-repeat padding-box #fff;
+    border: 4px solid #60a544;
+    border-radius: 44px;
+    width: 360px;
+    height: 480px;
+}
+
+.vehicle-sticker.valid {
+    border: 4px solid #60a544;
+}
+
+.vehicle-sticker.expired {
+    border: 4px solid #ac2b28;
+}
+
+.vehicle-sticker.unknown {
+    border: 4px solid #ebb21e;
+}
+
+.sticker-header {
+    background-color: #60a544;
+    color: #fff;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 36px 36px 0 0;
+}
+
+.sticker-header.expired {
+    background-color: #ac2b28;
+}
+
+.sticker-header.unknown {
+    background-color: #ebb21e;
+}
+
+.card-content {
+    font-size: 16px;
+    padding: 36px 30px;
+}
+
+.card-row {
+    display: flex;
+    border-bottom: 1.5px solid #eeeeee;
+    margin-bottom: 10px;
+}
+
+.card-row div {
+    font-weight: 700;
+    width: 146px;
+}
+
+.card-row label {
+    width: 124px;
+    font-size: 16px;
+    color: #8c8c8c;
+}
+
+footer {
+    display: flex;
+    margin-top: 108px;
+    align-items: center;
+}
+
+footer .saudi-logo img {
+    width: 170px;
+    margin-left: 90px;
+}
