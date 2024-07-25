@@ -84,7 +84,7 @@ body {
 .card-row {
     display: flex;
     border-bottom: 1.5px solid #eeeeee;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
 }
 
 .card-row div {
