@@ -112,5 +112,5 @@ footer .saudi-logo img {
 /* استعلامات إعلامية للشاشات الصغيرة */
 @media only screen and (max-width: 768px) {
     .vehicle-stickerPage img.logo {
-        margin-bottom: 0.6rem; /* زيادة المسافة السفلية عند العرض على شاشة الجوال */
+        margin-bottom: 0.8rem; /* زيادة المسافة السفلية عند العرض على شاشة الجوال */
     }
