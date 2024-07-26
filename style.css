@@ -53,7 +53,7 @@ a[href^="sms"] {
     border-radius: 44px;
     width: 360px;
     height: 480px;
-    order-box; /* التأكد من احتساب padding و border ضمن الأبعاد الكلية */
+     box-sizing: border-box; /* التأكد من احتساب padding و border ضمن الأبعاد الكلية */
     overflow: hidden; /* منع خروج المحتوى */
     display: flex;
     flex-direction: column;
