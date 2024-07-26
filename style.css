@@ -81,6 +81,7 @@ body {
     padding: 36px 30px;
      overflow: hidden; /* لمنع تجاوز المحتوى */
     max-height: 100%; /* لضمان بقاء المحتوى داخل الديف */
+    box-sizing: border-box; /* التأكد من احتساب padding و border ضمن الأبعاد الكلية */
 }
 
 .card-row {
